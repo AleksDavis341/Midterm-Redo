@@ -43,7 +43,7 @@ def get_list():
             listOfInt.append(num)     
 
         except ValueError:
-            "Please enter a valid number"
+            print("Please enter a valid number")
     
 # Task 4: Collections and Loops (10 points)
 # Write a function `sum_list(lst)` that takes a list of integers `lst` and returns the sum of all the elements in the list.
@@ -182,3 +182,4 @@ def main():
 # Calls the main function (Don't Touch!!!)
 if __name__ == "__main__":
     main()
+
